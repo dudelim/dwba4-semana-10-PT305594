@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+#conteudo {
+    width: 100%;
+    float: right;
+}
+
+h1 {
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    column-gap: 50px;
+    grid-template-columns: auto auto;
+    margin-left: 10%;
+}
+
+.grid-item {
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 60%;
+}
+
