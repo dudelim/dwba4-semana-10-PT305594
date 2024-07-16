@@ -1,8 +1,7 @@
-@charset "UTF-8";
-
 #conteudo {
     width: 100%;
     float: right;
+    text-align: center; /* Centraliza o conteúdo dentro do #conteudo */
 }
 
 h1 {
@@ -11,15 +10,19 @@ h1 {
 
 .grid-container {
     display: grid;
-    column-gap: 50px;
-    grid-template-columns: auto auto;
-    margin-left: 10%;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto; 
+    max-width: 5000px;
 }
 
 .grid-item {
-    padding: 20px;
-    font-size: 30px;
-    text-align: center;
-    width: 60%;
+    width: 50%;
+    max-width: 100%; 
+    margin: 0 auto; 
 }
 
+figcaption {
+    text-align: center; 
+    margin-top: 10px; 
+}
